@@ -1,0 +1,11 @@
+trial.db
+2.6.0
+(1, 'How to get a good grade in 677 in 20 minutes a day', 'distributed systems', 1000, 100)
+(2, 'RPCs for Dummies', 'distributed systems', 1000, 1000)
+(3, 'Xen and the Art of Surviving Graduate School', 'graduate school', 1000, 1000)
+(4, 'Cooking for the Impatient Graduate Student', 'graduate school', 1000, 1000)
+ * Serving Flask app "catalogServer" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off

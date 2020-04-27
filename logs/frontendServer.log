@@ -1,0 +1,314 @@
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /search distributed systems [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 62, in handle
+    return search(topic)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 16, in search
+    val = cache.get(topic)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:76.23.246.235 - - [17/Apr/2020 21:23:12] "[35m[1mGET /search%20distributed%20systems HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /search distributed systems [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 62, in handle
+    return search(topic)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 16, in search
+    val = cache.get(topic)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:28:39] "[35m[1mGET /search%20distributed%20systems HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:30:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:31:03] "[33mGET /lookup/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:31:13] "[33mGET /search/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:31:21] "[33mGET /search/distributed%20systems HTTP/1.1[0m" 404 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:31:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /lookup 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 71, in handle
+    return lookup(item)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 28, in lookup
+    val = cache.get(item)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:33:10] "[35m[1mGET /lookup%201 HTTP/1.1[0m" 500 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:33:20] "[37mGET /lookup HTTP/1.1[0m" 200 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:33:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 58, in handle
+    return search("")
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 16, in search
+    val = cache.get(topic)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:34:03] "[35m[1mGET /search HTTP/1.1[0m" 500 -
+ERROR:frontendServer:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 58, in handle
+    return search("")
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 16, in search
+    val = cache.get(topic)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:34:07] "[35m[1mGET /search HTTP/1.1[0m" 500 -
+ERROR:frontendServer:Exception on /search 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 62, in handle
+    return search(topic)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 16, in search
+    val = cache.get(topic)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:34:11] "[35m[1mGET /search%201 HTTP/1.1[0m" 500 -
+ERROR:frontendServer:Exception on /search distributed [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 62, in handle
+    return search(topic)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 16, in search
+    val = cache.get(topic)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:34:18] "[35m[1mGET /search%20distributed HTTP/1.1[0m" 500 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:34:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:35:03] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:frontendServer:Exception on /search distributed systems [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 63, in handle
+    return search(topic)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 16, in search
+    val = cache.get(topic)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:35:16] "[35m[1mGET /search%20distributed%20systems HTTP/1.1[0m" 500 -
+ERROR:frontendServer:Exception on /lookup 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 72, in handle
+    return lookup(item)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 28, in lookup
+    val = cache.get(item)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:35:27] "[35m[1mGET /lookup%201 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /lookup 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 73, in handle
+    return lookup(item)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 29, in lookup
+    val = cache.get(item)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:36:14] "[35m[1mGET /lookup%201 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /lookup 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 73, in handle
+    return lookup(item)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 29, in lookup
+    val = cache.get(item)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:37:26] "[35m[1mGET /lookup%201 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /lookup 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 73, in handle
+    return lookup(item)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 29, in lookup
+    val = cache.get(item)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:38:31] "[35m[1mGET /lookup%201 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /lookup 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 73, in handle
+    return lookup(item)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 29, in lookup
+    val = cache.get(item)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:39:50] "[35m[1mGET /lookup%201 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+ERROR:frontendServer:Exception on /lookup 1 [GET]
+Traceback (most recent call last):
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/nfs/elsrv4/users4/grad/shauryakamle/.local/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 75, in handle
+    return lookup(item)
+  File "lab-3-lab-3-li-patel/src/frontendServer.py", line 31, in lookup
+    val = cache.get(item)
+TypeError: get() takes 1 positional argument but 2 were given
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:41:10] "[35m[1mGET /lookup%201 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://elnux1.cs.umass.edu:35402/ (Press CTRL+C to quit)
+INFO:root:Client looking up: book#1
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:45:14] "[37mGET /lookup%201 HTTP/1.1[0m" 200 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:45:20] "[37mGET /lookup%201 HTTP/1.1[0m" 200 -
+INFO:root:Client searching: distributed%20systems
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:45:28] "[37mGET /search%20distributed%20systems HTTP/1.1[0m" 200 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:45:33] "[37mGET /search%20distributed%20systems HTTP/1.1[0m" 200 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:45:40] "[37mGET /search%20distributed%20systems HTTP/1.1[0m" 200 -
+INFO:root:Client searching: graduate%20school
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:45:44] "[37mGET /search%20graduate%20school HTTP/1.1[0m" 200 -
+INFO:werkzeug:128.119.243.168 - - [17/Apr/2020 21:45:47] "[37mGET /search%20graduate%20school HTTP/1.1[0m" 200 -
